@@ -1,0 +1,135 @@
+  <!--<div class="wrapper">
+    <button type="submit"  class="icon-close"><ion-icon name="close"></ion-icon></button>
+    <div class="form-box login">
+        <h2>Login</h2>
+        <form action="/login" method="POST">
+            <div class="input-box">
+                <span class="icon"><ion-icon name="mail" role="img" class="md hydrated"></ion-icon></span>
+                <input type="email" name="email">
+                <label>Email</label>
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed" role="img" class="md hydrated"></ion-icon></span>
+                <input type="password" name="password">
+                <label>Password</label>
+            </div>
+            <div class="remember-forget">
+                <a href="#">Forgot-password?</a>
+            </div>
+            <button type="submit"  class="login-btn btn2" value="login">Login</button>
+            <div class="login-register">
+                <p>Don't have an account?<a href="#" class="register-link">Register</a></p>
+            </div>
+        </form>
+    </div>
+
+    <div class="form-box register">
+        <h2>Registration</h2>
+        <form action="/register" method="POST">
+            <div class="input-box">
+                <span class="icon"><ion-icon name="person" role="img" class="md hydrated"></ion-icon></span>
+                <input type="text" name="firstname">
+                <label>Usrename</label>
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="mail" role="img" class="md hydrated"></ion-icon></span>
+                <input type="email" name="email">
+                <label>Email</label>
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed" role="img" class="md hydrated"></ion-icon></span>
+                <input type="password" name="password">
+                <label>Password</label>
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed" role="img" class="md hydrated"></ion-icon></span>
+                <input type="password" name="cpassword">
+                <label>Confirm Password</label>
+            </div>
+            
+            <button type="submit"  class="btn2 login-link" value="register">Register</button>
+            <div class="login-register">
+                <p>Already have an account? <a href="#" class="login-link">login</a></p>
+            </div>
+        </form>
+    </div>
+
+</div>-->
+
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="loginModalLabel">Login</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="/login" method="POST">
+            <div class="input-box">
+                <span class="icon"><ion-icon name="mail" role="img" class="md hydrated"></ion-icon></span>
+                <input type="email" name="email" placeholder="Email">
+                <!--<label>Email</label>-->
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed" role="img" class="md hydrated"></ion-icon></span>
+                <input type="password" name="password" placeholder="Password">
+               <!-- <label>Password</label>-->
+            </div>
+            
+            <button type="submit"  class="login-btn btn2" value="login">Login</button>
+            
+        </form>
+      </div>
+     <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>-->
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="signupModalLabel">Sign Up</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <form action="/register" method="POST">
+            <div class="input-box">
+                <span class="icon"><ion-icon name="person" role="img" class="md hydrated"></ion-icon></span>
+                <input type="text" name="firstname" placeholder="Username">
+                <!--<label>Usrename</label>-->
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="mail" role="img" class="md hydrated"></ion-icon></span>
+                <input type="email" name="email" placeholder="Email">
+                <!--<label>Email</label>-->
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed" role="img" class="md hydrated"></ion-icon></span>
+                <input type="password" name="password" placeholder="Password">
+                <!--<label>Password</label>-->
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed" role="img" class="md hydrated"></ion-icon></span>
+                <input type="password" name="cpassword" placeholder="Confirm Password">
+               <!-- <label>Confirm Password</label>-->
+            </div>
+            
+            <button type="submit"  class="btn2 login-link" value="register">Register</button>
+            
+        </form>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    
